@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature</title>
+    <title>Temperature Converter</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    
     <div class="temp-bg">
         <div class="temp-all">
             <div class="temp-heading">
@@ -24,7 +25,6 @@
                 </div>
                 <div class="cal-input">
                     <label for="">From :</label>
-                    <!-- <p>From:</p> -->
                     <select name="input" id="input" required>
                         <option value="celcius">Celcius (°C)</option>
                         <option value="fahrenheit">Fahrenheit (°F)</option>
@@ -37,15 +37,12 @@
                         <option value="kelvin">Kelvin (K)</option>
                     </select>
                 </div>
-                <!-- </div> -->
                 <button id="convert" class="call-btn">Convert</button>
                 <div class="result-section">
                     <label for="">Result:</label>
                     <input type="text" id="result" size="30" readonly>
                 </div>
             </div>
-            <!-- </div> -->
-            <!-- </form> -->
         </div>
 
         <script src="script.js"></script>
