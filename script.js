@@ -7,7 +7,6 @@ btn.addEventListener("click",()=>{
 
     var result;
 
-    // celcius
     if (input === "celcius" && output === "fahrenheit") {
         result = val + " °C = " + ((val * (9 / 5)) + 32) + " °F";
     }
