@@ -1,11 +1,9 @@
 const btn=document.getElementById("convert");
-
 btn.addEventListener("click",()=>{
     
     let val = Number(document.getElementById("input-value").value);
     
     let input = document.getElementById("input").value;
-    
     let output = document.getElementById("output").value;
 
     var result;
